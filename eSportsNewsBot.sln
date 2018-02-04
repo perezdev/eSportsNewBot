@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eSportsNewsBot.Bot", "eSportsNewsBot.Bot\eSportsNewsBot.Bot.csproj", "{BE9778C5-0F1F-42DE-AC16-67C6D8DC95DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eSportsNewsBot.Data", "eSportsNewsBot.Data\eSportsNewsBot.Data.csproj", "{BA63523B-83B1-4CB9-AF7E-42D1A8FEA9C0}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE9778C5-0F1F-42DE-AC16-67C6D8DC95DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE9778C5-0F1F-42DE-AC16-67C6D8DC95DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE9778C5-0F1F-42DE-AC16-67C6D8DC95DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE9778C5-0F1F-42DE-AC16-67C6D8DC95DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA63523B-83B1-4CB9-AF7E-42D1A8FEA9C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA63523B-83B1-4CB9-AF7E-42D1A8FEA9C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA63523B-83B1-4CB9-AF7E-42D1A8FEA9C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA63523B-83B1-4CB9-AF7E-42D1A8FEA9C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
