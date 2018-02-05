@@ -18,6 +18,7 @@ namespace eSportsNewsBot.Bot.Services
             {
                 websites = (from w in context.Websites
                             join g in context.Games on w.GameID equals g.GameID
+                            where w.Active
                             select new WebsiteModel()
                             {
                                 WebsiteId = w.WebsiteID,

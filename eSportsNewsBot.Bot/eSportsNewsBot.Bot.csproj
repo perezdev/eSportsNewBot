@@ -50,9 +50,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\GameModel.cs" />
+    <Compile Include="Models\SubredditModel.cs" />
     <Compile Include="Models\WebsiteModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\SubredditService.cs" />
     <Compile Include="Services\WebsiteService.cs" />
   </ItemGroup>
   <ItemGroup>

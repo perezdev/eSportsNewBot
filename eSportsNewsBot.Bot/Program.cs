@@ -9,7 +9,8 @@ namespace eSportsNewsBot.Bot
 {
     class Program
     {
-        public static WebsiteService _websiteService { get; set; } = new WebsiteService();
+        private static WebsiteService _websiteService { get; set; } = new WebsiteService();
+        private static SubredditService _subredditService { get; set; } = new SubredditService();
 
         private static void Main(string[] args)
         {
@@ -21,7 +22,8 @@ namespace eSportsNewsBot.Bot
         {
             try
             {
-                var websites = _websiteService.GetActiveWebsites();
+                //var websites = _websiteService.GetActiveWebsites();
+                var subreddits = _subredditService.GetActiveSubreddits();
             }
             catch (Exception ex)
             {
